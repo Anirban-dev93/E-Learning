@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  color: grey;
+}
+
+.common-padding {
+  padding: 7% 15%;
+}
+
+/**header section **/
+#header {
+  background-color: #ffefef;
+}
+
+.navbar {
+  padding: 3% 5%;
+}
+
+.navbar .nav-link {
+  padding: 0 10px;
+  margin: 0 5px;
+}
+
+.landing-page h1 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.landing-page button {
+  margin: 10px 10px;
+}
+
+/**header section**/
+#features {
+  background-color: #ffdfdf;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 1080px;
+  height: auto;
+}
+
+/**courses section**/
+#courses {
+  background-color: #ffefef;
+}
+
+#courses h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.courses-price {
+  background-color: #e1cccc;
+}
+
+.courses-price .card {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.courses-price h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.courses-price p {
+  text-align: justify;
+}
+
+.courses-price button {
+  background-color: #f25656;
+}
+
+/**help section**/
+#help {
+  background-color: #ffdfdf;
+}
+
+#help h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.help-card {
+  background-color: #f0a5a5;
+}
+
+.help-card h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.help-card p {
+  text-align: justify;
+}
+
+/**contact section**/
+#contact {
+  padding: 3% 10%;
+  background-color: #d98989;
+}
+
+#contact p {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.footer-icon {
+  padding: 0 10px;
+}
+
+/**media queries**/
+@media (max-width: 1000px) {
+  .card {
+    margin: 30px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
