@@ -99,6 +99,7 @@ p {
 #help {
   background-color: #ffdfdf;
   width: 100%;
+  padding: 7% 0;
 }
 
 #help h2 {
@@ -116,6 +117,7 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 25px;
 }
 
 #help .card-container .card {
@@ -313,6 +315,15 @@ p {
 @media screen and (max-width: 500px) {
   .landing-page h1 {
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #help .card-container {
+    display: block;
+  }
+  #help .card-container .card {
+    margin: 20px auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
